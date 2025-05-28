@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Hari</title>
+
+  <link rel="icon" type="icon" href="images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!-- ========== Start loader ========== -->
+  <div class="loader">
+    <div class="loader-box">
+      <img src="images/loader/l-1.webp" alt="loder image" class="l-1">
+      <div class="text-top">
+        <P class="p-0 m-0">HOTEL</P>
+      </div>
+      <div class="text-btm">
+        <P class="p-0 m-0">HARI</P>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End loader ========== -->
+  <!-- ========== Start navbar section ========== -->
+  <!-- Top Navigation -->
+  <div class=" py-1 border-bottom nav-top position-fixed d-none d-lg-block">
+    <div class="container">
+      <!-- Right Contact Info -->
+      <div class="d-flex align-items-center justify-content-end nav-top-box">
+        <div class="me-4">
+          <i class="ri-phone-line"></i> <a href="tel: 6289737695"><span>+91 628 973 7695</span></a>
+        </div>
+        <div class="me-4">
+          <i class="ri-mail-ai-line"></i> <a href="mailto: hotelhari@gmail.com"><span>hotelhari@gmail.com</span></a>
+        </div>
+        <div>
+          <i class="ri-focus-3-line"></i> <a href="#">
+            <span> Sector V, Salt Lake City, Kolkata - 700091</span></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Bottom Navigation -->
+  <nav class="navbar navbar-expand-lg bg-white py-2 position-fixed nav-btm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo1.webp" alt="Logo">
+      </a>
+
+      <!-- Navbar Toggle for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <div class="collapse navbar-collapse nav-custom-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto d-flex ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="what-we-offer.html#offers">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rooms">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#price">Price</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="location.html">Location</a>
+          </li>
+          <button data-bs-toggle="modal" data-bs-target="#bookingModal" class="m-auto mt-3 d-block d-lg-none">Book
+            Now</button>
+        </ul>
+        <button data-bs-toggle="modal" data-bs-target="#bookingModal"
+          class="float-end ms-auto d-none d-lg-block book-now-btn ">Book
+          Now</button>
+      </div>
+    </div>
+  </nav>
+  <!-- ========== End navbar section ========== -->
+
+  <!-- ========== Start hero section ========== -->
+  <section id="home" class="section-hero position-relative" style="width: 100%; height: 100%;">
+    <div class="hero-box">
+      <div class="hero-text text-center d-flex flex-column justify-content-center align-items-center">
+        <h1 class="heroTextAOS">Welcome to Hotel <span class="heroSpanAOS">Hari</span></h1>
+        <p class="heroPAOS text-white">Discover unparalleled hospitality and luxury at Hotel Hari, where comfort meets
+          elegance
+          for a truly
+          memorable stay. Explore-now!</p>
+        <button class="heroBtnAOS" onclick="location.href='what-we-offer.html'">What We
+          Offer</button>
+      </div>
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <!-- Slider-1 -->
+          <div class="swiper-slide">
+            <img src="images/slider/slider1.webp" class="img-fluid" alt="slider image">
+          </div>
+          <!-- Slider-2 -->
+          <div class="swiper-slide">
+            <img src="images/slider/slider2.webp" class="img-fluid" alt="slider image">
+          </div>
+          <!-- Slider-3 -->
+          <div class="swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1741506131058-533fcf894483?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="img-fluid" alt="slider image">
+          </div>
+          <!-- Slider-4 -->
+          <div class="swiper-slide">
+            <img src="images/slider/slider3.webp" class="img-fluid" alt="slider image">
+          </div>
+          <!-- Slider-5 -->
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="img-fluid" alt="slider image">
+          </div>
+          <!-- Slider-6 -->
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="img-fluid" alt="slider image">
+          </div>
+        </div>
+        <!-- Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </div>
+    <!-- ========== Start bookings ========== -->
+    <div class="container rounded-2 bookings-box">
+      <div class="row ">
+        <div class="col-lg col-12 mb-2 mb-lg-0">
+          <label for="exampleFormControlInput1" class="form-label">Check In</label>
+          <input type="date" placeholder="Select date" class="form-control w-100">
+        </div>
+        <div class="col-lg col-12 mb-2 mb-lg-0">
+          <label for="exampleFormControlInput1" class="form-label">Check Out</label>
+          <input type="date" placeholder="Select date" class="form-control w-100">
+        </div>
+        <div class="col-lg col-12 mb-2 mb-lg-0">
+          <label for="exampleFormControlInput1" class="form-label">Adults</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="col-lg col-12 mb-2 mb-lg-0">
+          <label for="exampleFormControlInput1" class="form-label">Children</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="col-lg col-12 mt-3 mt-xl-0  mb-lg-0 ">
+          <label for="exampleFormControlInput1" class="col-12 form-label">From ₹1199/Night</label>
+          <button type="submit" class="rounded-2 text-center">Check Availability</button>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End bookings ========== -->
+  </section>
+  <!-- ========== End hero section ========== -->
+  <!-- ========== Start about us ========== -->
+  <section id="about" class="section-about">
+    <div class="container">
+      <div class="flex-lg-row d-flex flex-column-reverse gap-3 about-flex-box">
+        <div class="col-lg-6 d-flex flex-column justify-content-between align-items-start">
+          <h3>Welcome to <span>Hotel Hari, the haven</span> of your weekend</h3>
+          <p>Welcome to Hotel Hari, your ultimate haven for a rejuvenating weekend escape. Experience unparalleled
+            comfort and service as you step into our tranquil abode. The best Hotel you ever experienced.
+          </p>
+          <div class="address d-flex flex-column">
+            <span>Locate us:</span> <a href="#" data-bs-toggle="tooltip"
+              title="Looking for us? Here’s our address">Hotel Hari,
+              Sector V, Salt Lake City, Kolkata - 700091</a>
+
+            <span>Call us:</span> <a href="tel: 6289737695" data-bs-toggle="tooltip"
+              title="Call us—we're happy to help">+91 6289737695</a>
+
+            <span>Email us:</span> <a href="mailto: hotelhari@gmail.com" data-bs-toggle="tooltip"
+              title="For any inquiries, email us">hotelhari@gmail.com</a>
+          </div>
+          </span></a>
+          <button onclick="location.href='what-we-offer.html'"
+            class="float-start float-lg-none mt-5 about-btn">Explore</button>
+        </div>
+        <div
+          class="col-lg-6 about-img-box d-flex justify-content-center align-items-center overflow-hidden about-img-box">
+          <div class="about-img-1">
+            <img src="images/about/about1.jpg" class="img-fluid rounded-3" alt="about image">
+          </div>
+          <div class="about-img-2">
+            <img src="images/about/about2.jpg" class="img-fluid rounded-3" alt="about image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End about us ========== -->
+  <!-- ========== Start fav section ========== -->
+  <section class="section-fav" id="rooms">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>WHAT I CAN DO FOR YOU?</h6>
+        <h3 class="mb-0">Our Favorite Rooms</h3>
+      </div>
+      <!-- fav-box -->
+      <div class="d-grid fav-box mt-5 g-3">
+        <!-- room opt-1 -->
+        <div class="fav-img-box fb-1">
+          <div class="img-box">
+            <img src="images/room/room1.webp" class="img-fluid" alt="room image">
+            <div class="img-box-top">
+              <div class="content d-flex flex-column justify-content-between align-items-start">
+                <div>
+                  <h3 class="text-decoration-underline">The Royal Suit</h3>
+                  <p>Step into a realm of regal comfort in our Royal Suite Room. Opulent fabrics drape across king-sized
+                    beds, complemented by rich, dark wood furnishings and intricate detailing that whispers of heritage
+                  </p>
+                </div>
+                <button>Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- room opt-2 -->
+        <div class="fav-img-box fb-2">
+          <div class="img-box">
+            <img src="images/room/room2.webp" class="img-fluid" alt="room image">
+            <div class="img-box-top">
+              <div class="content d-flex flex-column justify-content-between align-items-start">
+                <div>
+                  <h3 class="text-decoration-underline">The Heritage Chamber</h3>
+                  <p>Step into a realm of regal comfort in our Royal Suite Room. Opulent fabrics drape across king-sized
+                    beds, complemented by rich, dark wood furnishings and intricate detailing that whispers of heritage
+                  </p>
+                </div>
+                <button>Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- room opt-3 -->
+        <div class="fav-img-box fb-3">
+          <div class="img-box">
+            <img src="images/room/room3.webp" class="img-fluid" alt="room image">
+            <div class="img-box-top">
+              <div class="content d-flex flex-column justify-content-between align-items-start">
+                <div>
+                  <h3 class="text-decoration-underline">The Maharaja Suite</h3>
+                  <p>Step into a realm of regal comfort in our Royal Suite Room. Opulent fabrics drape across king-sized
+                    beds, complemented by rich, dark wood furnishings and intricate detailing that whispers of heritage
+                  </p>
+                </div>
+                <button>Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end fav-box -->
+      <div class="row mt-4 mx-auto">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <button onclick="location.href='what-we-offer.html#booking-rooms'">More Rooms</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End fav section ========== -->
+  <!-- ========== Start why chose us ========== -->
+  <section class="section-why-chose">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>DISCOVER THE DIFFERENCE</h6>
+        <h3 class="mb-0">Why Choose Us</h3>
+      </div>
+
+      <!-- chose box desktop -->
+      <div class="chose-box d-none d-lg-block mt-5">
+        <!-- chose-box-content -->
+        <div class="chose-box-content d-grid">
+          <!-- chose-box-img -->
+          <div class="chose-box-img">
+            <div class="img img-box-1">
+              <img src="images/chose/Frame 1.png" alt="chose us image">
+            </div>
+            <div class="img img-box-2">
+              <img src="images/chose/Frame 2.png" alt="chose us image">
+            </div>
+            <div class="img img-box-3">
+              <img src="images/chose/Frame 3.png" alt="chose us image">
+            </div>
+          </div>
+          <!-- end chose-box-img -->
+
+          <!-- chose-box text -->
+          <div class="chose-box-text">
+            <div class="text text-box-1">
+              <h5>Unparalleled Comfort & Elegance</h5>
+              <p>Experience luxurious rooms, modern amenities, serene ambiance, and personalized services designed for
+                unforgettable stays.</p>
+            </div>
+            <div class="text text-box-2">
+              <h5>Prime Location, Unmatched Accessibility</h5>
+              <p>Stay close to attractions, dining, and shopping, with convenient transportation options and ample
+                parking facilities.</p>
+            </div>
+            <div class="text text-box-3">
+              <h5>Exceptional Service, Every Step of the Way</h5>
+              <p>Enjoy personalized, thoughtful hospitality, attentive staff, and seamless experiences tailored to make
+                every moment memorable.</p>
+            </div>
+          </div>
+          <!-- end chose-box text -->
+        </div>
+        <!-- end chose-box-content -->
+
+      </div>
+      <!--end chose box desktop-->
+
+      <!-- chose box for mob tab -->
+      <div class="chose-box-tab d-lg-none d-block">
+        <!-- img-box -->
+        <div class="img-box">
+          <div class="swiper mt-5 choseImgSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/chose/Frame 1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/chose/Frame 2.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/chose/Frame 3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- end img box -->
+        <!-- text-box -->
+        <div class="text-box mt-3">
+          <div class="swiper choseTextSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="text text-1">
+                  <h5>Unparalleled Comfort & Elegance</h5>
+                  <p>Experience luxurious rooms, modern amenities, serene ambiance, and personalized services designed
+                    for unforgettable stays.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text text-2">
+                  <h5>Prime Location, Unmatched Accessibility</h5>
+                  <p>Stay close to attractions, dining, and shopping, with convenient transportation options and ample
+                    parking facilities.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="text text-3">
+                  <h5>Exceptional Service, Every Step of the Way</h5>
+                  <p>Enjoy personalized, thoughtful hospitality, attentive staff, and seamless experiences tailored to
+                    make every moment memorable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- end text box -->
+      </div>
+      <!-- end chose box tab -->
+    </div>
+  </section>
+  <!-- ========== End why chose us ========== -->
+  <!-- ========== Start Service section ========== -->
+  <section class="section-service" id="services">
+    <div class="container">
+      <!-- text -->
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>WE ARE HERE FOR YOU</h6>
+        <h3 class="mb-0">Our Awesome Services</h3>
+      </div>
+      <!-- service-box for desktop -->
+      <div class="service-wrapper d-none d-lg-block mt-5">
+        <div class="service-box d-grid">
+          <!-- service-box-img -->
+          <div class="service-box-img">
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-- img-1 -->
+              <div class="img-1 tab-pane fade show active" id="spa" role="tabpanel" aria-labelledby="v-pills-home-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p class="m-0 p-0">our best <span class="activeSpan">rejuvenating</span> spa treatments <span
+                      class="activeSpan">enhance</span> your
+                    beauty, and
+                    <span class="activeSpan">prioritize</span> holistic health.
+                  </p>
+                </div>
+                <img src="images/services/service1.webp" alt="our service image">
+              </div>
+              <!-- img-2 -->
+              <div class="tab-pane fade" id="restaurant" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Enjoy a wide range of <span>delicious</span> cuisines in our world-class restaurant.</p>
+                </div>
+                <img src="images/services/service2.webp" alt="our service image">
+              </div>
+              <!-- img-3 -->
+              <div class="tab-pane fade" id="swimming-pool" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Relax and unwind in our <span>luxurious</span> swimming pool facilities.</p>
+                </div>
+                <img src="images/services/service3.webp" alt="our service image">
+              </div>
+              <!-- img-4 -->
+              <div class="tab-pane fade" id="conference-room" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Uncover a range of <span>additional amenities</span> designed for more comfort, convenience, and
+                    memorable experiences.</p>
+                </div>
+                <img src="images/services/service4.webp" alt="our service image">
+              </div>
+
+            </div>
+          </div>
+          <!-- service-box-opt -->
+          <div class="service-box-opt">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <!-- btn-1 -->
+              <div class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#spa" role="tab"
+                aria-controls="v-pills-home" aria-selected="true">
+                <div class="icon">
+                  <div class="img-box">
+                    <img src="images/services/service-icon1.webp" alt="service icon">
+                  </div>
+                </div>
+                <div class="text">
+                  <h5>Spa, Beauty & Health</h5>
+                  <button onclick="location.href='what-we-offer.html#spa'" class="mt-3">Know More</button>
+                </div>
+              </div>
+              <!-- btn-2 -->
+              <div class="nav-link mt-2" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#restaurant"
+                type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <div class="icon">
+                  <div class="img-box">
+                    <img src="images/services/service-icon2.webp" alt="service icon">
+                  </div>
+                </div>
+                <div class="text">
+                  <h5>Restaurant</h5>
+                  <button onclick="location.href='what-we-offer.html#restaurant'" class="mt-3">Know More</button>
+                </div>
+              </div>
+              <!-- btn-3 -->
+              <div class="nav-link mt-2" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#swimming-pool"
+                type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <div class="icon">
+                  <div class="img-box">
+                    <img src="images/services/service-icon3.webp" alt="service icon">
+                  </div>
+                </div>
+                <div class="text">
+                  <h5>Swimming Pool</h5>
+                  <button onclick="location.href='what-we-offer.html#swimming-pool'" class="mt-3">Know More</button>
+                </div>
+              </div>
+              <!-- btn-4 -->
+              <div class="nav-link mt-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#conference-room" type="button" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">
+                <div class="icon">
+                  <div class="img-box">
+                    <img src="images/services/service-icon4.webp" alt="service icon">
+                  </div>
+                </div>
+                <div class="text">
+                  <h5>More to Explore</h5>
+                  <button onclick="location.href='what-we-offer.html#facilities'" class="mt-3">Know More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end service-box for desktop -->
+
+      <!-- service box for mob tab -->
+      <div class="service-wrapper-lg d-block d-lg-none mt-5">
+        <div class="service-box ">
+          <!-- service-box-img -->
+          <div class="service-box-img">
+            <div class="tab-content" id="v-pills-tabContent">
+              <!-- img-1 -->
+              <div class="tab-pane fade show active" id="spa-lg" role="tabpanel" aria-labelledby="v-pills-home-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p class="m-0 p-0">our best <span class="activeSpan">rejuvenating</span> spa treatments <span
+                      class="activeSpan">enhance</span> your
+                    beauty, and
+                    <span class="activeSpan">prioritize</span> holistic health.
+                  </p>
+                </div>
+                <img src="images/services/service1.webp" alt="our service image">
+              </div>
+              <!-- img-2 -->
+              <div class="tab-pane fade" id="restaurant-lg" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Enjoy a wide range of <span>delicious</span> cuisines in our world-class restaurant.</p>
+                </div>
+                <img src="images/services/service2.webp" alt="our service image">
+              </div>
+              <!-- img-3 -->
+              <div class="tab-pane fade" id="swimming-pool-lg" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Relax and unwind in our <span>luxurious</span> swimming pool facilities.</p>
+                </div>
+                <img src="images/services/service3.webp" alt="our service image">
+              </div>
+              <!-- img-4 -->
+              <div class="tab-pane fade" id="conference-room-lg" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                tabindex="0">
+                <div class="box position-absolute">
+                  <p>Uncover a range of <span>additional amenities</span> designed for more comfort, convenience, and
+                    memorable experiences.</p>
+                </div>
+                <img
+                  src="https://images.pexels.com/photos/2883048/pexels-photo-2883048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="our service image">
+              </div>
+
+            </div>
+          </div>
+
+          <!-- service-box-opt-wrapper -->
+          <div class="service-box-opt-wrapper d-grid">
+            <div class="open-close-btn">
+              <div class="btn-box">
+                <i class="ri-arrow-right-wide-line"></i>
+                <span>Details</span>
+              </div>
+            </div>
+            <!-- service-box-opt-box -->
+            <div class="service-box-overflow">
+              <!-- service box opt -->
+              <div class="service-box-opt d-flex flex-column">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <!-- btn-1 -->
+                  <div class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#spa-lg"
+                    role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    <div class="icon">
+                      <div class="img-box">
+                        <img src="images/services/service-icon1.webp" alt="service icon">
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h5>Spa, Beauty & Health</h5>
+                      <button onclick="location.href='what-we-offer.html#spa'" class="mt-3">Know More</button>
+                    </div>
+                  </div>
+                  <!-- btn-2 -->
+                  <div class="nav-link mt-3" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#restaurant-lg" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">
+                    <div class="icon">
+                      <div class="img-box">
+                        <img src="images/services/service-icon2.webp" alt="service icon">
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h5>Restaurant</h5>
+                      <button onclick="location.href='what-we-offer.html#restaurant'" class="mt-3">Know More</button>
+                    </div>
+                  </div>
+                  <!-- btn-3 -->
+                  <div class="nav-link mt-3" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#swimming-pool-lg" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">
+                    <div class="icon">
+                      <div class="img-box">
+                        <img src="images/services/service-icon3.webp" alt="service icon">
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h5>Swimming Pool</h5>
+                      <button onclick="location.href='what-we-offer.html#swimming-pool'" class="mt-3">Know More</button>
+                    </div>
+                  </div>
+                  <!-- btn-4 -->
+                  <div class="nav-link mt-3" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#conference-room-lg" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">
+                    <div class="icon">
+                      <div class="img-box">
+                        <img src="images/services/service-icon4.webp" alt="service icon">
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h5>More to Explore</h5>
+                      <button onclick="location.href='what-we-offer.html#facilities'" class="mt-3">Know More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end service box for mob tab  -->
+    </div>
+  </section>
+  <!-- ========== End Service section ========== -->
+  <!-- ========== Start staff section ========== -->
+  <section class="section-staff" id="team">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>WHAT i CAN DO FOR YOU</h6>
+        <h3 class="mb-0">Our Special Staff</h3>
+      </div>
+      <!-- staff-box -->
+      <div class="d-grid mt-5 staff-box">
+        <!-- staff-1 -->
+        <div class="col col-1">
+          <div class="img-box">
+            <img src="images/team/team1.webp" alt="our special team">
+          </div>
+          <div class="about-box d-grid">
+            <!-- intro -->
+            <div class="intro d-flex flex-column justify-content-center align-items-center gap-1">
+              <h5 class="mb-0 text-white">Arjun Sing</h5>
+              <p class="mb-0">Manager</p>
+            </div>
+            <!-- icon-box -->
+            <div class="icon-box d-grid">
+              <div class="icon icon-1">
+                <a href="#">
+                  <i class="ri-facebook-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-2">
+                <a href="#">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
+              <div class="icon icon-3">
+                <a href="#">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-4">
+                <a href="#">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- staff-2 -->
+        <div class="col col-2">
+          <div class="img-box">
+            <img src="images/team/team2.webp" alt="our special team">
+          </div>
+          <div class="about-box d-grid">
+            <!-- intro -->
+            <div class="intro d-flex flex-column justify-content-center align-items-center gap-1">
+              <h5 class="mb-0 text-white">Shankar Dev</h5>
+              <p class="mb-0">Chief Reception Officer</p>
+            </div>
+            <!-- icon-box -->
+            <div class="icon-box d-grid">
+              <div class="icon icon-1">
+                <a href="#">
+                  <i class="ri-facebook-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-2">
+                <a href="#">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
+              <div class="icon icon-3">
+                <a href="#">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-4">
+                <a href="#">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- staff-3 -->
+        <div class="col col-3">
+          <div class="img-box">
+            <img src="images/team/team3.webp" alt="our special team">
+          </div>
+          <div class="about-box d-grid">
+            <!-- intro -->
+            <div class="intro d-flex flex-column justify-content-center align-items-center gap-1">
+              <h5 class="mb-0 text-white">Madhab Basu</h5>
+              <p class="mb-0">Master Chef</p>
+            </div>
+            <!-- icon-box -->
+            <div class="icon-box d-grid">
+              <div class="icon icon-1">
+                <a href="#">
+                  <i class="ri-facebook-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-2">
+                <a href="#">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
+              <div class="icon icon-3">
+                <a href="#">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-4">
+                <a href="#">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- staff-4 -->
+        <div class="col col-4">
+          <div class="img-box">
+            <img src="images/team/team4.webp" alt="our special team">
+          </div>
+          <div class="about-box d-grid">
+            <!-- intro -->
+            <div class="intro d-flex flex-column justify-content-center align-items-center gap-1">
+              <h5 class="mb-0 text-white">Sunena Paul</h5>
+              <p class="mb-0">Housekeeping</p>
+            </div>
+            <!-- icon-box -->
+            <div class="icon-box d-grid">
+              <div class="icon icon-1">
+                <a href="#">
+                  <i class="ri-facebook-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-2">
+                <a href="#">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
+              <div class="icon icon-3">
+                <a href="#">
+                  <i class="ri-twitter-x-line"></i>
+                </a>
+              </div>
+              <div class="icon icon-4">
+                <a href="#">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- end staff-box -->
+      <div class="row my-5">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <button class="staff-btn">Show All</button>
+        </div>
+      </div>
+    </div>
+    <!-- counter box -->
+    <div class="counter-box">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+          <div class="col-12 col-md-3 py-4">
+            <div class="counter d-flex flex-column justify-content-center align-items-center">
+              <div class="number d-flex justify-content-center align-items-center">
+                <h4 class="count m-0" data-count="1240">0</h4>
+                <!-- <h4 class="plus m-0">K</h4> -->
+                <h4 class="plus m-0">+</h4>
+              </div>
+              <p class="m-0">Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 py-3">
+            <div class="counter d-flex flex-column justify-content-center align-items-center">
+              <div class="number d-flex justify-content-center align-items-center">
+                <h4 class="count m-0" data-count="5">5</h4>
+                <h4 class="m-0">+</h4>
+              </div>
+              <p class="m-0">Available Cities</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 py-3">
+            <div class="counter d-flex flex-column justify-content-center align-items-center">
+              <div class="number d-flex justify-content-center align-items-center">
+                <h4 class="count m-0" data-count="1077">0</h4>
+                <!-- <h4 class="plus m-0">K</h4> -->
+                <h4 class="m-0">+</h4>
+              </div>
+              <p class="m-0">Five Star Ratings</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 py-3">
+            <div class="counter d-flex flex-column justify-content-center align-items-center">
+              <div class="number d-flex justify-content-center align-items-center">
+                <h4 class="count m-0" data-count="25">0</h4>
+                <h4 class="m-0">+</h4>
+              </div>
+              <p class="m-0">Associate Partners</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End staff section ========== -->
+  <!-- ========== Start gallery section ========== -->
+  <section class="section-gallery" id="gallery">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>BEST PICTURES OF OUR HOTEL </h6>
+        <h3 class="mb-0">Our Gallery</h3>
+      </div>
+      <!-- sliders for gallery -->
+      <div class="swiper mt-5 gallerySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/gallery/1.webp" alt="our best images for you">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/gallery/2.webp" alt="our best images for you">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/gallery/3.webp" alt="our best images for you">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/gallery/4.webp" alt="our best images for you">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/31767049/pexels-photo-31767049/free-photo-of-cozy-hotel-room-with-twin-beds-and-decor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/7821345/pexels-photo-7821345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End gallery section ========== -->
+  <!-- ========== Start card-offer section ========== -->
+  <section class="section-card" id="price">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>BEST & AFFORDABLE PRICE FOR YOU</h6>
+        <h3 class="mb-0">Our Pricing</h3>
+      </div>
+      <!-- card-box -->
+      <div class="card-box mt-5 d-grid">
+        <!-- card-1 -->
+        <div class="col inner-curve p-3 pt-5 col-1">
+          <div class="text-box d-grid">
+            <div class="text heading">
+              <h5 class="m-0">Deluxe Room</h5>
+            </div>
+            <div class="text features">
+              <ul>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Queen bed</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>En-suite bathroom</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Complimentary breakfast</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Free Wi-Fi</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Room service available</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text price">
+              <h5>₹3000<span>/NIGHT</span></h5>
+            </div>
+            <div class="text offer-btn">
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="col inner-curve p-3 pt-5 col-2">
+          <div class="text-box d-grid">
+            <div class="text heading">
+              <h5 class="m-0">Executive Room</h5>
+            </div>
+            <div class="text features">
+              <ul>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>King bed</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Spacious living area</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Work desk</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Minibar</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Complimentary breakfast & Wi-Fi.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text price">
+              <h5>₹4500<span>/NIGHT</span></h5>
+            </div>
+            <div class="text offer-btn">
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="col inner-curve p-3 pt-5 col-3">
+          <div class="text-box d-grid">
+            <div class="text heading">
+              <h5 class="m-0">Presidential Suite</h5>
+            </div>
+            <div class="text features">
+              <ul>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Two bedrooms</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Private balcony</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Personal butler service</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Luxury toiletries</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Complimentary breakfast</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text price">
+              <h5>₹7000<span>/NIGHT</span></h5>
+            </div>
+            <div class="text offer-btn">
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- card-4 -->
+        <div class="col inner-curve p-3 pt-5 col-4">
+          <div class="text-box d-grid">
+            <div class="text heading">
+              <h5 class="m-0">Special Offers</h5>
+            </div>
+            <div class="text features">
+              <ul>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Romantic Getaway</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Family Fun</p>
+                </li>
+                <li><i class="ri-checkbox-line"></i>
+                  <p>Business Stay</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text price">
+              <span>Starting at</span>
+              <h5 class="text-center">₹5000<span>/NIGHT<br>(dynamic based on the package)</span></h5>
+            </div>
+            <div class="text offer-btn">
+              <button>Book Now</button>
+            </div>
+          </div>
+        </div>
+        <!--end card-box -->
+      </div>
+    </div>
+    <!-- text marque -->
+    <div class="container-fluid mt-5 p-0">
+      <div class="row text-slider-box">
+        <div class="col-12 text-slider">
+          <marquee behavior="scroll" direction="left" scrollamount="10">
+            <h5>Best Available Rates | Free Cancellation | Early Check-in and Late Check-out (Subject to availability) |
+              Room Upgrade (Subject to availability) | 25% Discount on our restaurant | Exclusive Website-only
+              Rates—book
+              direct & save!</h5>
+          </marquee>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End card-offer section ========== -->
+  <!-- ========== Start blog section ========== -->
+  <section class="section-blog" id="blog">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center text-center section-title">
+        <h6>SAY HALLOW TO OUR VISITORS</h6>
+        <h3 class="mb-0">Our Blog</h3>
+      </div>
+      <!-- blog-box -->
+      <div class="blog-box mt-5">
+        <div class="swiper blogSwiper">
+          <div class="swiper-wrapper">
+            <!-- slide-1 -->
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img
+                  src="https://thumbs.dreamstime.com/b/accomodation-offer-cheerful-indian-concierge-man-showing-key-smiling-to-camera-standing-hotel-reception-portrait-happy-male-275901764.jpg"
+                  alt="happy customer blogs">
+              </div>
+              <div class="info-box">
+                <div class="row p-2 py-3 m-0">
+                  <div class="col-12">
+                    <h5 class="text-decoration-underline m-0">Mr. Subhodeep Roy</h5>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 p-0">24 April 2025</p>
+                  </div>
+                  <div class="col-12">
+                    <p>Impeccable service, luxurious comfort, and unforgettable stay made my India trip...</p>
+                  </div>
+                  <div class="col-12">
+                    <button>Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide-2 -->
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="images/blog/blog1.webp" alt="happy customer blogs">
+              </div>
+              <div class="info-box">
+                <div class="row p-2 py-3 m-0">
+                  <div class="col-12">
+                    <h5 class="text-decoration-underline m-0">Mrs. Avanti Ganguly</h5>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 p-0 dateOfPost">24 April 2025</p>
+                  </div>
+                  <div class="col-12">
+                    <p>luxurious comfort, and unforgettable stay made my India trip perfect. Highly
+                      recommend...</p>
+                  </div>
+                  <div class="col-12">
+                    <button>Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide-3 -->
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="https://imagedelivery.net/fCX2Ol1JZ3LkfzALAppBLw/ba520aa3-0004-4d61-ee43-0435fb95aa00/public"
+                  alt="happy customer blogs">
+              </div>
+              <div class="info-box">
+                <div class="row p-2 py-3 m-0">
+                  <div class="col-12">
+                    <h5 class="text-decoration-underline m-0">Mrs. Gorgia Farnandis</h5>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 p-0">12 February 2025</p>
+                  </div>
+                  <div class="col-12">
+                    <p>Impeccable service, luxurious comfort, and unforgettable stay made my...</p>
+                  </div>
+                  <div class="col-12">
+                    <button>Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide-4 -->
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img src="images/blog/blog2.webp" alt="happy customer blogs">
+              </div>
+              <div class="info-box">
+                <div class="row p-2 py-3 m-0">
+                  <div class="col-12">
+                    <h5 class="text-decoration-underline m-0">Mr. Anupam Biswas</h5>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 p-0">12 February 2025</p>
+                  </div>
+                  <div class="col-12">
+                    <p>Impeccable service, luxurious comfort, and unforgettable stay made my...</p>
+                  </div>
+                  <div class="col-12">
+                    <button>Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slide-5 -->
+            <div class="swiper-slide">
+              <div class="img-box">
+                <img
+                  src="https://media.istockphoto.com/id/1979938809/video/happy-indian-grandparents-standing-in-blue-water-swimming-pool-playing-ball-with-cute-little.jpg?s=640x640&k=20&c=ePDCBao-VS6-AJ_WJEWBfRsKJZurMMRUr4DOF0EG2wQ="
+                  alt="happy customer blogs">
+              </div>
+              <div class="info-box">
+                <div class="row p-2 py-3 m-0">
+                  <div class="col-12">
+                    <h5 class="text-decoration-underline m-0">Mr. Ram Nath Das</h5>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 p-0">12 February 2025</p>
+                  </div>
+                  <div class="col-12">
+                    <p>Impeccable service, luxurious comfort, and unforgettable stay made my...</p>
+                  </div>
+                  <div class="col-12">
+                    <button>Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end blog box -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End blog section ========== -->
+  <!-- ========== Start partners sections ========== -->
+  <section class="section-partners">
+    <div class="swiper logoSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/partners/brand1.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand2.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand3.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand4.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand5.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand6.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand7.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand8.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand9.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand10.webp" alt="our partners">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/partners/brand11.webp" alt="our partners">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== End partners sections ========== -->
+  <!-- ========== Start footer-section ========== -->
+  <footer class="section-footer">
+    <div class="container">
+      <!-- footer-box -->
+      <div class="footer-box d-grid">
+
+        <div class="col col-1 d-grid">
+          <div class="head-box">
+            <h5 class="text-white mb-4">Hotel Location</h5>
+          </div>
+          <div class="body-box">
+            <p class="text-white">Welcome to our best Hotel where we treat every customer like our own family. For any
+              query feel free
+              to contact us.</p>
+            <div class="location">
+              <ul class="p-0">
+                <li>
+                  <i class="ri-home-4-line"></i>
+                  <a href="">16, Anupama Road, Airport City, Kolkata - 700056</a>
+                </li>
+                <li><i class="ri-phone-line"></i>
+                  <a href="tel:6289737695"> 6289737695</a>
+                </li>
+                <li><i class="ri-mail-ai-line"></i><a href="mailto:hotel@gmail.com">hotel@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-2 d-grid">
+          <div class="head-box">
+            <h5 class="text-white mb-4">Quick Links</h5>
+          </div>
+          <div class="body-box">
+            <ul class="p-0">
+              <li>
+                <i class="ri-arrow-right-s-line"></i>
+                <a href="">About Us</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="tel:6289737695"> Our Office</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="mailto:hotel@gmail.com">Rooms & Suites</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="mailto:hotel@gmail.com">Dining</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="mailto:hotel@gmail.com">Spa/Wellness</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="mailto:hotel@gmail.com">Promotions/Special Offers</a>
+              </li>
+              <li><i class="ri-arrow-right-s-line"></i><a href="mailto:hotel@gmail.com">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col col-3 d-grid">
+          <div class="top">
+            <div class="head-box">
+              <h5 class="text-white mb-4">Book Your Stay</h5>
+            </div>
+            <div class="body-box">
+              <ul class="p-0">
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="#">Book Now</a>
+                </li>
+                <li><i class="ri-arrow-right-s-line"></i><a href="#">Check Availability</a>
+                </li>
+                <li><i class="ri-arrow-right-s-line"></i><a href="#">Promotions & Deals</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btm">
+            <div class="head-box">
+              <h5 class="text-white mb-4">Careers</h5>
+            </div>
+            <div class="body-box">
+              <ul class="p-0">
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="#">Job Openings</a>
+                </li>
+                <li><i class="ri-arrow-right-s-line"></i><a href="#">Internship Opportunities</a>
+                </li>
+                <li><i class="ri-arrow-right-s-line"></i><a href="#">Join Our Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-4 d-grid">
+          <div class="top">
+            <div class="head-box">
+              <h5 class="text-white mb-4">Newsletter</h5>
+            </div>
+            <div class="body-box">
+              <div class="input-box">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+              </div>
+              <button class="mt-4 text-white">Subscribe</button>
+            </div>
+          </div>
+          <div class="btm">
+            <div class="head-box">
+              <h5 class="text-white mb-4">Stay Connected</h5>
+            </div>
+            <div class="body-box">
+              <div class="social">
+                <div class="icon">
+                  <i class="ri-facebook-line"></i>
+                </div>
+                <div class="icon">
+                  <i class="ri-instagram-line"></i>
+                </div>
+                <div class="icon">
+                  <i class="ri-twitter-x-line"></i>
+                </div>
+                <div class="icon">
+                  <i class="ri-linkedin-line"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- end footer-box -->
+    </div>
+  </footer>
+  <div class="sub-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-white m-0 p-0 text-center">Copyright <i class="ri-copyright-line"></i> HOTEL <span>All Rights
+              Reserved</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End footer-section ========== -->
+  <!-- ========== Start scroll to top ========== -->
+  <div class="top-btn"><i class="ri-arrow-up-line"></i></div>
+  <a href="#" class="contact-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+      class="ri-customer-service-2-line"></i></a>
+
+  <!-- for contact btn modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content d-grid">
+        <div class="modal-top d-grid">
+          <img src="images/modal/contact-modal.jpg" alt="">
+          <div class="modal-header">
+
+            <div class="modal-address d-flex flex-column">
+
+              <span>Locate us:</span> <a href="#" data-bs-toggle="tooltip"
+                title="Looking for us? Here’s our address">Hotel Hari,
+                Sector V, Salt Lake City, Kolkata - 700091</a>
+
+              <span>Call us:</span> <a href="tel: 6289737695" data-bs-toggle="tooltip"
+                title="Call us—we're happy to help">+91 6289737695</a>
+
+              <span>Email us:</span> <a href="mailto: hotelhari@gmail.com" data-bs-toggle="tooltip"
+                title="For any inquiries, email us">hotelhari@gmail.com</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="modal-footer p-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn btn-primary call-us"><a href="tel: 6289737695">Call us</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End scroll to top ========== -->
+
+  <!-- ========== Start modal ========== -->
+  <div class="modal-box d-grid justify-content-center align-items-center">
+    <div class="modals">
+      <div class="back-img">
+        <img src="images/modal/Frame 1.png" alt="background">
+      </div>
+      <img src="images/modal/family.webp" alt="family showing offer" class="family-img">
+      <img src="images/modal/buildings.webp" alt="building image" class="buildings">
+      <div class="modal-text">
+        <h4>Stay & save upto <span class="fifty">50<div
+              class="d-flex flex-column justify-content-center align-items-center"><span>%</span><span>off</span></div>
+          </span>
+          on our Hotel Booking</h4>
+      </div>
+      <div class="code">
+        <p>Use Code:</p>
+        <h4 class="text-decoration-underline" onclick="copyToClipboard(this)">HARI10DIS</h4>
+      </div>
+      <div class="close-btn d-grid">
+        <i class="ri-close-circle-fill"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- for book now btn modal -->
+
+  <div class="modal fade" id="bookingModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content book-now-modal-content">
+        <div class="container rounded-2 modal-booking-box">
+
+          <div class="col-12 mb-2 mb-lg-0">
+            <label for="exampleFormControlInput1" class="form-label">Check In</label>
+            <input type="date" placeholder="Select date" class="form-control w-100">
+          </div>
+          <div class="col-12 mb-2 mb-lg-0">
+            <label for="exampleFormControlInput1" class="form-label">Check Out</label>
+            <input type="date" placeholder="Select date" class="form-control w-100">
+          </div>
+          <div class="col-12 mb-2 mb-lg-0">
+            <label for="exampleFormControlInput1" class="form-label">Adults</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-12 mb-2 mb-lg-0">
+            <label for="exampleFormControlInput1" class="form-label">Children</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-12 mt-3 mt-lg-0 mb-lg-0 ">
+            <label for="exampleFormControlInput1" class="col-12 form-label">From ₹1199/Night</label>
+            <button type="submit" class="rounded-2 text-center">Check Availability</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========== End modal ========== -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
