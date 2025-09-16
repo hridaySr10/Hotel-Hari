@@ -245,11 +245,24 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 // Store coordinates for our locations
 const locationCoordinates = {
-  "123 Main St, New York": { lat: 40.7112, lng: -74.0053 },
-  "456 Broadway, New York": { lat: 40.7195, lng: -74.0015 },
-  "789 5th Avenue, New York": { lat: 40.7669, lng: -73.9693 },
-  "Times Square, New York": { lat: 40.758, lng: -73.9855 },
-  "Central Park, New York": { lat: 40.7829, lng: -73.9654 },
+  // "123 Main St, New York": { lat: 40.7112, lng: -74.0053 },
+  // "456 Broadway, New York": { lat: 40.7195, lng: -74.0015 },
+  // "789 5th Avenue, New York": { lat: 40.7669, lng: -73.9693 },
+  "Netaji Subhas Chandra Bose International Airport": {
+    lat: 22.6547,
+    lng: 88.4467,
+  },
+  "Howrah Railway Station": { lat: 22.583, lng: 88.3426 },
+  "Sealdah Railway Station": { lat: 22.5626, lng: 88.363 },
+  "Esplanade Bus Terminus": { lat: 22.5667, lng: 88.355 },
+  "Santragachi Railway Station": { lat: 22.5893, lng: 88.2775 },
+  "Shyambazar Five Point Crossing": { lat: 22.604, lng: 88.3706 },
+  "Babughat Ferry Ghat": { lat: 22.5687, lng: 88.3441 },
+  // our hotel locations in 4 places
+  "Park Street, Kolkata": { lat: 22.5522, lng: 88.3538 },
+  "Salt Lake Sector V, Kolkata": { lat: 22.5792, lng: 88.4379 },
+  "New Town, Kolkata": { lat: 22.5769, lng: 88.4656 },
+  "Esplanade, Kolkata": { lat: 22.5667, lng: 88.361 },
 };
 
 let routingControl = null;
